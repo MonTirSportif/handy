@@ -118,6 +118,7 @@
     });
     h('Se repérer');
     add(rel('c-est-nouveau.html'), ico('star') + "C'est nouveau");
+    add(rel('navigation.html'), ico('compass') + 'Naviguer dans le site');
     add(rel('plan-du-site.html'), ico('map') + 'Plan du site');
     h('Aussi chez MonTirSportif');
     [['https://pistol.montirsportif.com/', 'Le site Pistolet ↗'], ['https://rifle.montirsportif.com/', 'Le site Carabine ↗'], ['https://edt.montirsportif.com/', 'Le site École de tir ↗'], ['https://sq.montirsportif.com/', 'SQ ↗'], ['https://thot.montirsportif.com/', 'Le site Thot ↗'], ['https://tar.montirsportif.com/', 'Le site TAR ↗']].forEach(function (x) { var l = add(x[0], x[1]); l.target = '_blank'; l.rel = 'noopener'; });
