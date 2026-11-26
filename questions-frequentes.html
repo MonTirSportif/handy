@@ -28,7 +28,7 @@
 </head>
 <body>
 <header><div class="bar"><a class="logo" href="index.html" aria-label="MonTirSportif Handy — accueil"><img src="img/logo.png" alt="MonTirSportif"></a>
-<nav id="nav"><a href="index.html" style="--navc:#0e7c86">Accueil</a><a href="index.html#epreuves" style="--navc:#0e7c86">Les épreuves</a><a href="accueillir-et-encadrer.html" style="--navc:#0e7c86">Accueillir et encadrer</a><a href="questions-frequentes.html" class="on" style="--navc:#0e7c86">Questions fréquentes</a><a href="annonce.html">Mon annonce</a><a href="a-propos.html" style="--navc:#0e7c86">À propos</a></nav></div></header>
+<nav id="nav"><a href="index.html" style="--navc:#0e7c86">Accueil</a><a href="index.html#epreuves" style="--navc:#0e7c86">Les épreuves</a><a href="accueillir-et-encadrer.html" style="--navc:#0e7c86">Accueillir et encadrer</a><a href="questions-frequentes.html" class="on" style="--navc:#0e7c86">Questions fréquentes</a><a href="annonce.html">Mon annonce</a><a href="a-propos.html" style="--navc:#0e7c86">À propos</a></nav><button type="button" class="srch-btn" id="srch-btn" aria-label="Rechercher dans le site" title="Rechercher (touche /)"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><line x1="15.5" y1="15.5" x2="21" y2="21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span>Rechercher</span></button></div></header>
 <main class="view on" id="questions-frequentes" style="--acc:#0e7c86">
 <style>.faq-tools{margin-bottom:.6rem}#faq-search{width:100%;font:inherit;padding:.8rem 1rem;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--txt);margin-bottom:.7rem}#faq-search:focus{outline:none;border-color:var(--acc)}.faq-group{margin-bottom:1.6rem}.faq-group h3{margin-bottom:.6rem}.faq-item{margin-bottom:.6rem}.faq-item p{margin:.6rem 0 0}.faq-cats{display:flex;flex-wrap:wrap;gap:.4rem}.faq-cats button{font:inherit;font-size:.9rem;padding:.4rem .85rem;border-radius:99px;border:1px solid var(--line);background:var(--card);color:var(--txt);cursor:pointer}.faq-cats button.on{background:var(--acc);border-color:var(--acc);color:#fff}#faq-empty{display:none;color:var(--mut)}</style>
 <div class="theme-head"><a class="back" href="index.html">← Retour</a><div class="kicker">Vos questions</div><h1>Questions fréquentes</h1>
@@ -68,5 +68,6 @@ document.addEventListener('click',function(e){if(e.target.closest('[data-cookies
 <script>document.querySelectorAll(".yt").forEach(function(w){var b=w.querySelector(".yt-btn");if(!b||w.dataset.bound)return;w.dataset.bound=1;b.addEventListener("click",function(){var f=document.createElement("iframe");f.src="https://www.youtube-nocookie.com/embed/"+w.dataset.id+"?autoplay=1&rel=0";f.title="Vidéo";f.allow="autoplay; encrypted-media; picture-in-picture; fullscreen";f.allowFullscreen=true;w.innerHTML="";w.appendChild(f);});});</script>
 <script src="js/share.js"></script>
 <script src="js/nav.js?v=20261126nav" defer></script>
+<script src="js/search.js" data-base=""></script>
 </body>
 </html>
